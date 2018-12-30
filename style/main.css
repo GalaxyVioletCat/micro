@@ -1,0 +1,71 @@
+body{
+    position: relative;
+    width: 1600px;
+    height: 4828px;
+    background: #FFFFFF;
+    
+}
+#row{
+padding-left: 13.49%;
+}
+#city{    
+    font-family: Calibri;
+    line-height: normal;
+    font-size: 15px;
+    color: #6A6A6A;
+}
+.top-mess{    
+    font-family: Calibri;
+    line-height: normal;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #9CC330;
+    text-align: center;
+}
+.text-log{
+    font-family: Gotham Pro;
+    line-height: normal;
+    font-size: 22px;
+
+    color: #3A91CE;
+}
+.text-desc{
+    font-family: Calibri;
+    line-height: normal;
+    font-size: 17px;
+    
+    color: #7C7C7C;
+}
+.text-nav a{
+    font-family: Calibri;
+    line-height: normal;
+    font-size: 15px;
+    color: #6A6A6A;
+}
+#reg-btn{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+#nav-it{
+    padding-right: 1%;
+}
+.phone-text{
+    font-family: Calibri;
+    line-height: normal;
+    font-size: 17px;
+    color: #000000;
+}
+.btn-catalog{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: 1px solid #3A91CE;
+    border-radius: 5px;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    padding: 12px;
+}
