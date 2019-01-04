@@ -1,20 +1,23 @@
-body{
+body {
     position: relative;
     width: 1600px;
     height: 4828px;
     background: #FFFFFF;
-    
+
 }
-#row{
-padding-left: 13.49%;
+
+#row {
+    padding-left: 13.49%;
 }
-#city{    
+
+#city {
     font-family: Calibri;
     line-height: normal;
     font-size: 15px;
     color: #6A6A6A;
 }
-.top-mess{    
+
+.top-mess {
     font-family: Calibri;
     line-height: normal;
     font-size: 16px;
@@ -22,60 +25,68 @@ padding-left: 13.49%;
     background-color: #9CC330;
     text-align: center;
 }
-.text-log{
+
+.text-log {
     font-family: Gotham Pro;
     line-height: normal;
     font-size: 22px;
 
     color: #3A91CE;
 }
-.text-desc{
+
+.text-desc {
     font-family: Calibri;
     line-height: normal;
     font-size: 17px;
-    
+
     color: #7C7C7C;
 }
-.text-nav a{
+
+.text-nav a {
     font-family: Calibri;
     line-height: normal;
     font-size: 15px;
     color: #6A6A6A;
 }
-#reg-btn{
+
+#reg-btn {
     background-color: Transparent;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     border: none;
-    cursor:pointer;
+    cursor: pointer;
     overflow: hidden;
-    outline:none;
+    outline: none;
 }
-#nav-it{
+
+#nav-it {
     padding-right: 1%;
 }
-.phone-text{
+
+.phone-text {
     font-family: Calibri;
     line-height: normal;
     font-size: 17px;
     color: #000000;
 }
-.btn-catalog{
+
+.btn-catalog {
     width: 112px;
     height: 40px;
     background-color: Transparent;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     border: 1px solid #3A91CE;
     border-radius: 5px;
-    cursor:pointer;
+    cursor: pointer;
     overflow: hidden;
-    outline:none;
+    outline: none;
 
     font-family: Calibri;
     line-height: normal;
     font-size: 18px;
     color: #3A91CE;
 }
-.search-field{
+
+.search-field {
     width: 485px;
     height: 40px;
     background: #FFFFFF;
@@ -84,16 +95,19 @@ padding-left: 13.49%;
     border-radius: 4px;
     padding: 5px;
 }
-.search-btn{
+
+.search-btn {
     position: absolute;
     margin-top: -2px;
     margin-left: -35px;
     padding: 0px;
 }
-#reg-mod{
+
+#reg-mod {
     padding-left: 45px;
 }
-#min-zak{
+
+#min-zak {
     margin-left: -75px;
     padding: 0%;
     font-family: Calibri;
@@ -101,7 +115,8 @@ padding-left: 13.49%;
     font-size: 15px;
     color: #7C7C7C;
 }
-.btn-cart{
+
+.btn-cart {
     margin-left: -20px;
     background: #FFFFFF;
     border: 1px solid #BECBD4;
@@ -111,15 +126,16 @@ padding-left: 13.49%;
 
     font-family: Calibri;
     line-height: normal;
-    font-size: 16px;    
+    font-size: 16px;
     color: #84AE12;
 }
-.circle{
+
+.circle {
     background: #9CC330;
     border-radius: 14px;
     height: 28px;
     width: 28px;
-    background-image: url("images/round.svg");
+    background-image: url("../images/round.svg");
 
     font-family: Calibri;
     line-height: normal;
@@ -128,12 +144,15 @@ padding-left: 13.49%;
 
     color: #FFFFFF;
 }
-#some{
- color: #000000;
+
+#some {
+    color: #000000;
 }
-a#login{
+
+a#login {
     color: #000000
 }
+
 #main {
     display: none;
     position: absolute;
@@ -141,8 +160,9 @@ a#login{
     left: 0;
     width: 100%;
     height: 100%;
-  }
-  #okno {
+}
+
+#okno {
     width: 300px;
     height: 50px;
     text-align: center;
@@ -156,4 +176,84 @@ a#login{
     bottom: 0;
     left: 0;
     margin: auto;
+}
+
+.horizontal-slidermix {
+    position: relative;
+    width: 1100px;
+    height: 102px;
+    overflow: hidden;
+}
+
+.slider-prevmix, .slider-nextmix {
+    color: black;
+    margin-top: 43px;
+}
+
+.slider-prevmix {
+    background-position: 0 0;
+    left: 0;
+}
+
+ul.no-mark {
+    margin: 0;
+    padding: 0;
+}
+
+ul.sm-slider li {
+    display: inline-block;
+    vertical-align: top;
+    white-space: normal;
+    position: relative;
+    width: 175px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+ul.sm-slider .slide-cont {
+    display: block;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.img-over_x95 {
+    display: block;
+    margin: 0 auto 14px auto;
+    height: 95px;
+}
+
+.link-namemix {
+    display: block;
+    font-weight: 700;
+    line-height: 24px;
+    font-size: 18px;
+    color: #3399cc;
+    text-decoration: none;
+}
+
+.horizontal-slidermix0 {
+    position: relative;
+    z-index: 15;
+}
+
+.horizontal-slidermix1 {
+    font-size: 36px;
+    font-weight: 500 !important;
+    line-height: 1.2em;
+    color: #2E70BF;
+    text-align: center;
+}
+.low-green{
+    background-color: #9CC330;
+    width: 1600px;
+    height: 40px;
+
+    color: white;
+    padding-top: 10px;
+    font-family: Calibri ;
+    line-height: normal;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
   }
